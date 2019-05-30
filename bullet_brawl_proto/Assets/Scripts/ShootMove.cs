@@ -10,6 +10,7 @@ public class ShootMove : MonoBehaviour
     private float fireCountdown = 0f;
     Rigidbody playerRB;
     // Start is called before the first frame update
+
     void Start()
     {
         playerRB = transform.parent.parent.parent.GetComponent<Rigidbody>();
@@ -25,7 +26,7 @@ public class ShootMove : MonoBehaviour
             if (fireCountdown <= 0)
             {
                 Shoot();
-                playerRB.velocity = -transform.parent.parent.up * 5;
+                playerRB.velocity = -(transform.parent.forward * 5);
                 fireCountdown = 1f / fireRate;
             }
         }
@@ -37,7 +38,7 @@ public class ShootMove : MonoBehaviour
         GameObject clone = Instantiate(bulletPrefab, transform.position, transform.rotation);
         Rigidbody cloneRb = clone.GetComponent<Rigidbody>();
         //cloneRb.velocity = transform.TransformDirection(new Vector3(0, 0, speed));
-        cloneRb.velocity = clone.transform.up * speed;
+        cloneRb.velocity = clone.transform.right * speed;
         Destroy(clone.gameObject, 2);
     }
 }

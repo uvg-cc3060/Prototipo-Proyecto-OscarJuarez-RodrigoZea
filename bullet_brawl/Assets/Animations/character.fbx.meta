@@ -1,0 +1,1893 @@
+fileFormatVersion: 2
+guid: 32ed90fd1a39448428819520a384059c
+timeCreated: 1455616145
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: //RootNode
+    100006: Eyewear
+    100008: Geo
+    100010: Hats
+    100012: Left Elbow IK
+    100014: Left Elbow IK_end
+    100016: Left Foot IK
+    100018: Left Foot IK_end
+    100020: Left Hand IK
+    100022: Left Hand IK_end
+    100024: Left Knee IK
+    100026: Left Knee IK_end
+    100028: Right Elbow IK
+    100030: Right Elbow IK_end
+    100032: Right Foot IK
+    100034: Right Foot IK_end
+    100036: Right Hand IK
+    100038: Right Hand IK_end
+    100040: Right Knee IK
+    100042: Right Knee IK_end
+    100044: Soldier_body
+    100046: swat:Head
+    100048: swat:HeadTop_End
+    100050: swat:Hips
+    100052: swat:Jaw
+    100054: swat:Jaw_end
+    100056: swat:LeftArm
+    100058: swat:LeftEye
+    100060: swat:LeftEye_end
+    100062: swat:LeftFoot
+    100064: swat:LeftForeArm
+    100066: swat:LeftHand
+    100068: swat:LeftHandIndex1
+    100070: swat:LeftHandIndex2
+    100072: swat:LeftHandIndex3
+    100074: swat:LeftHandIndex3_end
+    100076: swat:LeftHandMiddle1
+    100078: swat:LeftHandMiddle2
+    100080: swat:LeftHandMiddle3
+    100082: swat:LeftHandMiddle3_end
+    100084: swat:LeftHandPinky1
+    100086: swat:LeftHandPinky2
+    100088: swat:LeftHandPinky3
+    100090: swat:LeftHandPinky3_end
+    100092: swat:LeftHandRing1
+    100094: swat:LeftHandRing2
+    100096: swat:LeftHandRing3
+    100098: swat:LeftHandRing3_end
+    100100: swat:LeftHandThumb1
+    100102: swat:LeftHandThumb2
+    100104: swat:LeftHandThumb3
+    100106: swat:LeftHandThumb3_end
+    100108: swat:LeftLeg
+    100110: swat:LeftShoulder
+    100112: swat:LeftToeBase
+    100114: swat:LeftToeBase_end
+    100116: swat:LeftUpLeg
+    100118: swat:Neck
+    100120: swat:Neck1
+    100122: swat:RightArm
+    100124: swat:RightEye
+    100126: swat:RightEye_end
+    100128: swat:RightFoot
+    100130: swat:RightForeArm
+    100132: swat:RightHand
+    100134: swat:RightHandIndex1
+    100136: swat:RightHandIndex2
+    100138: swat:RightHandIndex3
+    100140: swat:RightHandIndex3_end
+    100142: swat:RightHandMiddle1
+    100144: swat:RightHandMiddle2
+    100146: swat:RightHandMiddle3
+    100148: swat:RightHandMiddle3_end
+    100150: swat:RightHandPinky1
+    100152: swat:RightHandPinky2
+    100154: swat:RightHandPinky3
+    100156: swat:RightHandPinky3_end
+    100158: swat:RightHandRing1
+    100160: swat:RightHandRing2
+    100162: swat:RightHandRing3
+    100164: swat:RightHandRing3_end
+    100166: swat:RightHandThumb1
+    100168: swat:RightHandThumb2
+    100170: swat:RightHandThumb3
+    100172: swat:RightHandThumb3_end
+    100174: swat:RightLeg
+    100176: swat:RightShoulder
+    100178: swat:RightToeBase
+    100180: swat:RightToeBase_end
+    100182: swat:RightUpLeg
+    100184: swat:Spine
+    100186: swat:Spine1
+    100188: swat:Spine2
+    400000: Armature
+    400002: Body
+    400004: //RootNode
+    400006: Eyewear
+    400008: Geo
+    400010: Hats
+    400012: Left Elbow IK
+    400014: Left Elbow IK_end
+    400016: Left Foot IK
+    400018: Left Foot IK_end
+    400020: Left Hand IK
+    400022: Left Hand IK_end
+    400024: Left Knee IK
+    400026: Left Knee IK_end
+    400028: Right Elbow IK
+    400030: Right Elbow IK_end
+    400032: Right Foot IK
+    400034: Right Foot IK_end
+    400036: Right Hand IK
+    400038: Right Hand IK_end
+    400040: Right Knee IK
+    400042: Right Knee IK_end
+    400044: Soldier_body
+    400046: swat:Head
+    400048: swat:HeadTop_End
+    400050: swat:Hips
+    400052: swat:Jaw
+    400054: swat:Jaw_end
+    400056: swat:LeftArm
+    400058: swat:LeftEye
+    400060: swat:LeftEye_end
+    400062: swat:LeftFoot
+    400064: swat:LeftForeArm
+    400066: swat:LeftHand
+    400068: swat:LeftHandIndex1
+    400070: swat:LeftHandIndex2
+    400072: swat:LeftHandIndex3
+    400074: swat:LeftHandIndex3_end
+    400076: swat:LeftHandMiddle1
+    400078: swat:LeftHandMiddle2
+    400080: swat:LeftHandMiddle3
+    400082: swat:LeftHandMiddle3_end
+    400084: swat:LeftHandPinky1
+    400086: swat:LeftHandPinky2
+    400088: swat:LeftHandPinky3
+    400090: swat:LeftHandPinky3_end
+    400092: swat:LeftHandRing1
+    400094: swat:LeftHandRing2
+    400096: swat:LeftHandRing3
+    400098: swat:LeftHandRing3_end
+    400100: swat:LeftHandThumb1
+    400102: swat:LeftHandThumb2
+    400104: swat:LeftHandThumb3
+    400106: swat:LeftHandThumb3_end
+    400108: swat:LeftLeg
+    400110: swat:LeftShoulder
+    400112: swat:LeftToeBase
+    400114: swat:LeftToeBase_end
+    400116: swat:LeftUpLeg
+    400118: swat:Neck
+    400120: swat:Neck1
+    400122: swat:RightArm
+    400124: swat:RightEye
+    400126: swat:RightEye_end
+    400128: swat:RightFoot
+    400130: swat:RightForeArm
+    400132: swat:RightHand
+    400134: swat:RightHandIndex1
+    400136: swat:RightHandIndex2
+    400138: swat:RightHandIndex3
+    400140: swat:RightHandIndex3_end
+    400142: swat:RightHandMiddle1
+    400144: swat:RightHandMiddle2
+    400146: swat:RightHandMiddle3
+    400148: swat:RightHandMiddle3_end
+    400150: swat:RightHandPinky1
+    400152: swat:RightHandPinky2
+    400154: swat:RightHandPinky3
+    400156: swat:RightHandPinky3_end
+    400158: swat:RightHandRing1
+    400160: swat:RightHandRing2
+    400162: swat:RightHandRing3
+    400164: swat:RightHandRing3_end
+    400166: swat:RightHandThumb1
+    400168: swat:RightHandThumb2
+    400170: swat:RightHandThumb3
+    400172: swat:RightHandThumb3_end
+    400174: swat:RightLeg
+    400176: swat:RightShoulder
+    400178: swat:RightToeBase
+    400180: swat:RightToeBase_end
+    400182: swat:RightUpLeg
+    400184: swat:Spine
+    400186: swat:Spine1
+    400188: swat:Spine2
+    4300000: Eyewear
+    4300002: Hats
+    4300004: Body
+    4300006: Soldier_body
+    7400000: Armature|Aim
+    7400002: Armature|Cover Full Left
+    7400004: Armature|Cover Full Left To Aim
+    7400006: Armature|Cover Full Left To Return
+    7400008: Armature|Cover Full Right
+    7400010: Armature|Cover Full Right To Aim
+    7400012: Armature|Cover Full Right To Return
+    7400014: Armature|Fire Burst
+    7400016: Armature|Fire Single
+    7400018: Armature|Idle
+    7400020: Armature|Idle Half Cover
+    7400022: Armature|Relaod
+    7400024: Armature|Run
+    9500000: //RootNode
+    13700000: Body
+    13700002: Eyewear
+    13700004: Hats
+    13700006: Soldier_body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 'MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:LeftUpLeg''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:RightUpLeg''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:LeftUpLeg''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:RightUpLeg''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''character''conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:LeftUpLeg''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''character'' conversion warning: ''Armature/swat:Hips/swat:RightUpLeg''
+      has scale animation''. It is not supported.
+
+'
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Aim
+      takeName: Armature|Aim
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left Elbow IK
+        weight: 0
+      - path: Armature/Left Elbow IK/Left Elbow IK_end
+        weight: 0
+      - path: Armature/Left Foot IK
+        weight: 0
+      - path: Armature/Left Foot IK/Left Foot IK_end
+        weight: 0
+      - path: Armature/Left Hand IK
+        weight: 0
+      - path: Armature/Left Hand IK/Left Hand IK_end
+        weight: 0
+      - path: Armature/Left Knee IK
+        weight: 0
+      - path: Armature/Left Knee IK/Left Knee IK_end
+        weight: 0
+      - path: Armature/Right Elbow IK
+        weight: 0
+      - path: Armature/Right Elbow IK/Right Elbow IK_end
+        weight: 0
+      - path: Armature/Right Foot IK
+        weight: 0
+      - path: Armature/Right Foot IK/Right Foot IK_end
+        weight: 0
+      - path: Armature/Right Hand IK
+        weight: 0
+      - path: Armature/Right Hand IK/Right Hand IK_end
+        weight: 0
+      - path: Armature/Right Knee IK
+        weight: 0
+      - path: Armature/Right Knee IK/Right Knee IK_end
+        weight: 0
+      - path: Armature/swat:Hips
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot/swat:LeftToeBase
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot/swat:LeftToeBase/swat:LeftToeBase_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:RightUpLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot/swat:RightToeBase
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot/swat:RightToeBase/swat:RightToeBase_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2/swat:LeftHandIndex3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2/swat:LeftHandIndex3/swat:LeftHandIndex3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2/swat:LeftHandMiddle3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2/swat:LeftHandMiddle3/swat:LeftHandMiddle3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2/swat:LeftHandPinky3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2/swat:LeftHandPinky3/swat:LeftHandPinky3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2/swat:LeftHandRing3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2/swat:LeftHandRing3/swat:LeftHandRing3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2/swat:LeftHandThumb3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2/swat:LeftHandThumb3/swat:LeftHandThumb3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:HeadTop_End
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:Jaw
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:Jaw/swat:Jaw_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:LeftEye
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:LeftEye/swat:LeftEye_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:RightEye
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:RightEye/swat:RightEye_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2/swat:RightHandIndex3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2/swat:RightHandIndex3/swat:RightHandIndex3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2/swat:RightHandMiddle3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2/swat:RightHandMiddle3/swat:RightHandMiddle3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2/swat:RightHandPinky3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2/swat:RightHandPinky3/swat:RightHandPinky3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2/swat:RightHandRing3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2/swat:RightHandRing3/swat:RightHandRing3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2/swat:RightHandThumb3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2/swat:RightHandThumb3/swat:RightHandThumb3_end
+        weight: 0
+      - path: Body
+        weight: 0
+      - path: Eyewear
+        weight: 0
+      - path: Geo
+        weight: 0
+      - path: Hats
+        weight: 0
+      - path: Soldier_body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left Elbow IK
+        weight: 0
+      - path: Armature/Left Elbow IK/Left Elbow IK_end
+        weight: 0
+      - path: Armature/Left Foot IK
+        weight: 0
+      - path: Armature/Left Foot IK/Left Foot IK_end
+        weight: 0
+      - path: Armature/Left Hand IK
+        weight: 0
+      - path: Armature/Left Hand IK/Left Hand IK_end
+        weight: 0
+      - path: Armature/Left Knee IK
+        weight: 0
+      - path: Armature/Left Knee IK/Left Knee IK_end
+        weight: 0
+      - path: Armature/Right Elbow IK
+        weight: 0
+      - path: Armature/Right Elbow IK/Right Elbow IK_end
+        weight: 0
+      - path: Armature/Right Foot IK
+        weight: 0
+      - path: Armature/Right Foot IK/Right Foot IK_end
+        weight: 0
+      - path: Armature/Right Hand IK
+        weight: 0
+      - path: Armature/Right Hand IK/Right Hand IK_end
+        weight: 0
+      - path: Armature/Right Knee IK
+        weight: 0
+      - path: Armature/Right Knee IK/Right Knee IK_end
+        weight: 0
+      - path: Armature/swat:Hips
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot/swat:LeftToeBase
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot/swat:LeftToeBase/swat:LeftToeBase_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:RightUpLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot/swat:RightToeBase
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot/swat:RightToeBase/swat:RightToeBase_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2/swat:LeftHandIndex3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2/swat:LeftHandIndex3/swat:LeftHandIndex3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2/swat:LeftHandMiddle3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2/swat:LeftHandMiddle3/swat:LeftHandMiddle3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2/swat:LeftHandPinky3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2/swat:LeftHandPinky3/swat:LeftHandPinky3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2/swat:LeftHandRing3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2/swat:LeftHandRing3/swat:LeftHandRing3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2/swat:LeftHandThumb3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2/swat:LeftHandThumb3/swat:LeftHandThumb3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:HeadTop_End
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:Jaw
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:Jaw/swat:Jaw_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:LeftEye
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:LeftEye/swat:LeftEye_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:RightEye
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:RightEye/swat:RightEye_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2/swat:RightHandIndex3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2/swat:RightHandIndex3/swat:RightHandIndex3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2/swat:RightHandMiddle3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2/swat:RightHandMiddle3/swat:RightHandMiddle3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2/swat:RightHandPinky3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2/swat:RightHandPinky3/swat:RightHandPinky3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2/swat:RightHandRing3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2/swat:RightHandRing3/swat:RightHandRing3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2/swat:RightHandThumb3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2/swat:RightHandThumb3/swat:RightHandThumb3_end
+        weight: 0
+      - path: Body
+        weight: 0
+      - path: Eyewear
+        weight: 0
+      - path: Geo
+        weight: 0
+      - path: Hats
+        weight: 0
+      - path: Soldier_body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Left Elbow IK
+        weight: 0
+      - path: Armature/Left Elbow IK/Left Elbow IK_end
+        weight: 0
+      - path: Armature/Left Foot IK
+        weight: 0
+      - path: Armature/Left Foot IK/Left Foot IK_end
+        weight: 0
+      - path: Armature/Left Hand IK
+        weight: 0
+      - path: Armature/Left Hand IK/Left Hand IK_end
+        weight: 0
+      - path: Armature/Left Knee IK
+        weight: 0
+      - path: Armature/Left Knee IK/Left Knee IK_end
+        weight: 0
+      - path: Armature/Right Elbow IK
+        weight: 0
+      - path: Armature/Right Elbow IK/Right Elbow IK_end
+        weight: 0
+      - path: Armature/Right Foot IK
+        weight: 0
+      - path: Armature/Right Foot IK/Right Foot IK_end
+        weight: 0
+      - path: Armature/Right Hand IK
+        weight: 0
+      - path: Armature/Right Hand IK/Right Hand IK_end
+        weight: 0
+      - path: Armature/Right Knee IK
+        weight: 0
+      - path: Armature/Right Knee IK/Right Knee IK_end
+        weight: 0
+      - path: Armature/swat:Hips
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot/swat:LeftToeBase
+        weight: 1
+      - path: Armature/swat:Hips/swat:LeftUpLeg/swat:LeftLeg/swat:LeftFoot/swat:LeftToeBase/swat:LeftToeBase_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:RightUpLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot/swat:RightToeBase
+        weight: 1
+      - path: Armature/swat:Hips/swat:RightUpLeg/swat:RightLeg/swat:RightFoot/swat:RightToeBase/swat:RightToeBase_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2/swat:LeftHandIndex3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandIndex1/swat:LeftHandIndex2/swat:LeftHandIndex3/swat:LeftHandIndex3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2/swat:LeftHandMiddle3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandMiddle1/swat:LeftHandMiddle2/swat:LeftHandMiddle3/swat:LeftHandMiddle3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2/swat:LeftHandPinky3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandPinky1/swat:LeftHandPinky2/swat:LeftHandPinky3/swat:LeftHandPinky3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2/swat:LeftHandRing3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandRing1/swat:LeftHandRing2/swat:LeftHandRing3/swat:LeftHandRing3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2/swat:LeftHandThumb3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:LeftShoulder/swat:LeftArm/swat:LeftForeArm/swat:LeftHand/swat:LeftHandThumb1/swat:LeftHandThumb2/swat:LeftHandThumb3/swat:LeftHandThumb3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:HeadTop_End
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:Jaw
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:Jaw/swat:Jaw_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:LeftEye
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:LeftEye/swat:LeftEye_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:RightEye
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:Neck/swat:Neck1/swat:Head/swat:RightEye/swat:RightEye_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2/swat:RightHandIndex3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandIndex1/swat:RightHandIndex2/swat:RightHandIndex3/swat:RightHandIndex3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2/swat:RightHandMiddle3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandMiddle1/swat:RightHandMiddle2/swat:RightHandMiddle3/swat:RightHandMiddle3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2/swat:RightHandPinky3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandPinky1/swat:RightHandPinky2/swat:RightHandPinky3/swat:RightHandPinky3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2/swat:RightHandRing3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandRing1/swat:RightHandRing2/swat:RightHandRing3/swat:RightHandRing3_end
+        weight: 0
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2/swat:RightHandThumb3
+        weight: 1
+      - path: Armature/swat:Hips/swat:Spine/swat:Spine1/swat:Spine2/swat:RightShoulder/swat:RightArm/swat:RightForeArm/swat:RightHand/swat:RightHandThumb1/swat:RightHandThumb2/swat:RightHandThumb3/swat:RightHandThumb3_end
+        weight: 0
+      - path: Body
+        weight: 0
+      - path: Eyewear
+        weight: 0
+      - path: Geo
+        weight: 0
+      - path: Hats
+        weight: 0
+      - path: Soldier_body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: swat:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: swat:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: character(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 8.14603354e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:Hips
+      position: {x: 3.22731148e-06, y: .991729081, z: -.0609725118}
+      rotation: {x: .0726772174, y: 0, z: 0, w: .997355521}
+      scale: {x: 1, y: .999999523, z: .99999994}
+      transformModified: 1
+    - name: swat:Spine
+      position: {x: 8.94069652e-10, y: .0935747698, z: .00222934363}
+      rotation: {x: -.070111841, y: -2.70167291e-11, z: -3.58046065e-10, w: .997539163}
+      scale: {x: .999999702, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: swat:Spine1
+      position: {x: -1.82539217e-09, y: .162529528, z: -.00249216426}
+      rotation: {x: -.045081947, y: -1.44945156e-09, z: 3.01409397e-10, w: .998983324}
+      scale: {x: 1.00000012, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: swat:Spine2
+      position: {x: -8.19563861e-10, y: .137001276, z: -.00128964486}
+      rotation: {x: .0450819768, y: 1.43510992e-09, z: 5.73679403e-11, w: .998983383}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:Neck
+      position: {x: 3.42726691e-09, y: .138548508, z: -.0442551114}
+      rotation: {x: .113908313, y: -3.19397286e-09, z: -2.51021559e-09, w: .993491232}
+      scale: {x: 1, y: .999999642, z: .999999762}
+      transformModified: 1
+    - name: swat:Neck1
+      position: {x: -4.47034826e-10, y: .0443671234, z: -.00102268159}
+      rotation: {x: 1.11758695e-07, y: -2.1300568e-09, z: 3.45911833e-09, w: 1}
+      scale: {x: 1, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: swat:Head
+      position: {x: 9.53674295e-09, y: .0411598049, z: -.000962935272}
+      rotation: {x: -.106926292, y: 5.76426196e-09, z: -9.24354704e-10, w: .994266987}
+      scale: {x: .99999994, y: 1.00000036, z: 1.00000048}
+      transformModified: 1
+    - name: swat:HeadTop_End
+      position: {x: -1.19209287e-09, y: .178866073, z: .00123127934}
+      rotation: {x: 4.4408921e-16, y: -2.8712881e-11, z: -2.29703048e-10, w: 1}
+      scale: {x: 1.01361609, y: 1.01361585, z: 1.01361597}
+      transformModified: 1
+    - name: swat:RightEye
+      position: {x: .030057, y: .07413169, z: .0781472251}
+      rotation: {x: .999961734, y: 1.692399e-10, z: 8.8002404e-11, w: .00874529313}
+      scale: {x: .99999994, y: 1, z: 1.00019789}
+      transformModified: 1
+    - name: swat:RightEye_end
+      position: {x: -0, y: .0851755962, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:LeftEye
+      position: {x: -.030057, y: .0741315708, z: .0781472474}
+      rotation: {x: .999961734, y: 1.692399e-10, z: 8.8002404e-11, w: .00874529313}
+      scale: {x: .99999994, y: 1, z: 1.00019789}
+      transformModified: 1
+    - name: swat:LeftEye_end
+      position: {x: -0, y: .0851755962, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:Jaw
+      position: {x: -9.68575442e-10, y: .0207702722, z: .024168238}
+      rotation: {x: 1.67638046e-08, y: 7.32228861e-12, z: 3.81435106e-10, w: 1}
+      scale: {x: .99999994, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: swat:Jaw_end
+      position: {x: -0, y: .0851755962, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:LeftShoulder
+      position: {x: -.0614421032, y: .101673685, z: -.0384558812}
+      rotation: {x: .736032784, y: -.676944971, z: .00116459548, w: .000205713412}
+      scale: {x: .999999344, y: .999999821, z: .999998868}
+      transformModified: 1
+    - name: swat:LeftArm
+      position: {x: .000862081011, y: .123720393, z: .0177213084}
+      rotation: {x: .000128611864, y: -6.15415775e-05, z: .0394233651, w: .999222636}
+      scale: {x: 1.00000012, y: .999999523, z: 1.0000006}
+      transformModified: 1
+    - name: swat:LeftForeArm
+      position: {x: -.00130645931, y: .276866734, z: -.000467277743}
+      rotation: {x: 1.03609601e-08, y: 1.0040818e-08, z: -5.96046235e-08, w: 1}
+      scale: {x: 1, y: 1.0000006, z: .99999994}
+      transformModified: 1
+    - name: swat:LeftHand
+      position: {x: -.00131546019, y: .278734267, z: -.000470426079}
+      rotation: {x: -1.71712546e-08, y: 4.9476494e-09, z: 0, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999642}
+      transformModified: 1
+    - name: swat:LeftHandThumb1
+      position: {x: .00982761849, y: .0237873644, z: -.0262834001}
+      rotation: {x: -.363627374, y: .026772039, z: .0543291308, w: .929573536}
+      scale: {x: 1, y: 1.00000036, z: .999999702}
+      transformModified: 1
+    - name: swat:LeftHandThumb2
+      position: {x: .00982164871, y: .0440539643, z: -.000606003974}
+      rotation: {x: .038137462, y: .020252889, z: .013227392, w: .998979688}
+      scale: {x: .99999994, y: .999999166, z: 1.00000048}
+      transformModified: 1
+    - name: swat:LeftHandThumb3
+      position: {x: .0132088726, y: .0500734299, z: -.000205593111}
+      rotation: {x: -.00142639794, y: -7.45057633e-08, z: -.0916800573, w: .995787501}
+      scale: {x: 1.00000012, y: .999999523, z: .999999762}
+      transformModified: 1
+    - name: swat:LeftHandThumb3_end
+      position: {x: -0, y: .0517867021, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:LeftHandMiddle1
+      position: {x: -.0066557955, y: .104601525, z: -.00445351843}
+      rotation: {x: 1.39698342e-09, y: -2.910382e-11, z: 1.78813877e-07, w: 1}
+      scale: {x: 1.00000012, y: 1, z: .999999583}
+      transformModified: 1
+    - name: swat:LeftHandMiddle2
+      position: {x: -.000273270591, y: .057920184, z: -9.77539967e-05}
+      rotation: {x: -4.65661121e-10, y: -3.20142024e-10, z: -1.78813877e-07, w: 1}
+      scale: {x: 1.00000024, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: swat:LeftHandMiddle3
+      position: {x: -.000175266265, y: .0371311717, z: -6.26373294e-05}
+      rotation: {x: -1.32713422e-08, y: 1.12631779e-08, z: -5.96046235e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: swat:LeftHandMiddle3_end
+      position: {x: -0, y: .0371318869, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:LeftHandIndex1
+      position: {x: -.006729641, y: .103869148, z: -.027209226}
+      rotation: {x: 2.45345202e-08, y: 8.44010817e-09, z: 2.38418494e-07, w: 1}
+      scale: {x: 1.00000036, y: 1, z: .99999994}
+      transformModified: 1
+    - name: swat:LeftHandIndex2
+      position: {x: -.0002618742, y: .0554922037, z: -9.36126671e-05}
+      rotation: {x: 5.82076387e-09, y: -1.14960086e-08, z: 8.64267065e-07, w: 1}
+      scale: {x: .999999642, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: swat:LeftHandIndex3
+      position: {x: -.000159988398, y: .0339107215, z: -5.71823111e-05}
+      rotation: {x: 2.27300863e-08, y: 1.56869611e-08, z: -8.94069458e-08, w: 1}
+      scale: {x: 1.00000012, y: .999999702, z: .999999881}
+      transformModified: 1
+    - name: swat:LeftHandIndex3_end
+      position: {x: -0, y: .0339113288, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:LeftHandRing1
+      position: {x: -.00363484607, y: .103267238, z: .0185919702}
+      rotation: {x: -4.6566111e-09, y: 2.52039083e-08, z: 0, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: swat:LeftHandRing2
+      position: {x: -.000257005682, y: .0544515923, z: -9.18996302e-05}
+      rotation: {x: -3.32656676e-08, y: 7.36908703e-08, z: 0, w: 1}
+      scale: {x: .99999994, y: 1, z: .999999702}
+      transformModified: 1
+    - name: swat:LeftHandRing3
+      position: {x: -.000175189969, y: .0371312387, z: -6.26185501e-05}
+      rotation: {x: 6.4319452e-09, y: -8.35279756e-09, z: 0, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:LeftHandRing3_end
+      position: {x: -0, y: .0371317379, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:LeftHandPinky1
+      position: {x: .000445423124, y: .100199945, z: .0394994877}
+      rotation: {x: -1.92667287e-08, y: 1.01426814e-07, z: -8.34464743e-07, w: 1}
+      scale: {x: 1.00000012, y: 1, z: .999999881}
+      transformModified: 1
+    - name: swat:LeftHandPinky2
+      position: {x: -.000173563953, y: .0367620662, z: -6.20651263e-05}
+      rotation: {x: 2.11002718e-08, y: -8.23638189e-08, z: 1.84774353e-06, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: swat:LeftHandPinky3
+      position: {x: -.000132598871, y: .0281130541, z: -4.74286062e-05}
+      rotation: {x: 2.28756019e-08, y: 2.00525321e-08, z: 2.98023117e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: swat:LeftHandPinky3_end
+      position: {x: -0, y: .0281134509, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:RightShoulder
+      position: {x: .0614018291, y: .101673707, z: -.0384559371}
+      rotation: {x: .73686862, y: .676035166, z: -.00111621211, w: .000168246785}
+      scale: {x: .999999344, y: .999999225, z: .999999166}
+      transformModified: 1
+    - name: swat:RightArm
+      position: {x: -.000554860453, y: .12376222, z: .0177221857}
+      rotation: {x: .000135641778, y: 4.0745352e-08, z: -.0408347137, w: .999165893}
+      scale: {x: 1.00000095, y: 1.00000048, z: 1.00000083}
+      transformModified: 1
+    - name: swat:RightForeArm
+      position: {x: .00120836729, y: .276867121, z: -.000467548351}
+      rotation: {x: 1.69093219e-08, y: 1.45519119e-09, z: 1.19209261e-07, w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: .999999225}
+      transformModified: 1
+    - name: swat:RightHand
+      position: {x: .0012166833, y: .278734684, z: -.000470738392}
+      rotation: {x: -3.02679726e-09, y: -1.53086095e-08, z: -8.94069387e-08, w: 1}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000072}
+      transformModified: 1
+    - name: swat:RightHandThumb1
+      position: {x: -.00917151384, y: .0251754988, z: -.0252110884}
+      rotation: {x: -.374872565, y: -.026142234, z: -.0548691601, w: .925081968}
+      scale: {x: .999999762, y: .999999762, z: 1.00000012}
+      transformModified: 1
+    - name: swat:RightHandThumb2
+      position: {x: -.0106771681, y: .04415318, z: -.0003388357}
+      rotation: {x: .0362794586, y: -.0258525349, z: -.0113537526, w: .998942733}
+      scale: {x: .999999881, y: .999999106, z: 1.00000024}
+      transformModified: 1
+    - name: swat:RightHandThumb3
+      position: {x: -.0134892911, y: .049112618, z: .000405449275}
+      rotation: {x: .00291494885, y: -2.08616157e-07, z: .0969944447, w: .995280623}
+      scale: {x: 1.00000012, y: 1.00000036, z: .999999285}
+      transformModified: 1
+    - name: swat:RightHandThumb3_end
+      position: {x: -0, y: .050932996, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:RightHandIndex1
+      position: {x: .00544449454, y: .104596443, z: -.0272796527}
+      rotation: {x: -1.57160649e-08, y: 5.19212229e-08, z: 8.94069458e-08, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .999999702}
+      transformModified: 1
+    - name: swat:RightHandIndex2
+      position: {x: .000234768828, y: .0537670404, z: -9.08577786e-05}
+      rotation: {x: -3.89991239e-09, y: -3.33529826e-08, z: -3.57627783e-07, w: 1}
+      scale: {x: .999999881, y: 1.00000036, z: .999999404}
+      transformModified: 1
+    - name: swat:RightHandIndex3
+      position: {x: .000147681232, y: .0338544138, z: -5.72448225e-05}
+      rotation: {x: 1.91503187e-08, y: -4.10363965e-09, z: 8.94069601e-08, w: 1}
+      scale: {x: 1.0000006, y: .999999404, z: 1.00000024}
+      transformModified: 1
+    - name: swat:RightHandIndex3_end
+      position: {x: -0, y: .0338547379, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:RightHandMiddle1
+      position: {x: .00537979184, y: .107566297, z: -.00444310205}
+      rotation: {x: 8.32369373e-09, y: 2.9511277e-08, z: 5.96046334e-07, w: 1}
+      scale: {x: .99999994, y: 1.00000024, z: .999999285}
+      transformModified: 1
+    - name: swat:RightHandMiddle2
+      position: {x: .000245246891, y: .0561670586, z: -9.48049128e-05}
+      rotation: {x: -3.6379781e-08, y: -5.06406517e-09, z: -1.28149952e-06, w: 1}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000083}
+      transformModified: 1
+    - name: swat:RightHandMiddle3
+      position: {x: .000163028235, y: .0373630859, z: -6.31135699e-05}
+      rotation: {x: 4.0570729e-08, y: -1.51339885e-09, z: -2.98023153e-08, w: 1}
+      scale: {x: .999999821, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: swat:RightHandMiddle3_end
+      position: {x: -0, y: .0373636112, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:RightHandRing1
+      position: {x: .00426982762, y: .104717173, z: .0191989448}
+      rotation: {x: 9.89529969e-09, y: 5.52972645e-09, z: 2.98023153e-08, w: 1}
+      scale: {x: .999999642, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: swat:RightHandRing2
+      position: {x: .00023575782, y: .0540122353, z: -9.12736359e-05}
+      rotation: {x: -2.65426863e-08, y: 2.7968774e-08, z: 2.08616214e-07, w: 1}
+      scale: {x: 1.00000095, y: .999999702, z: .999999285}
+      transformModified: 1
+    - name: swat:RightHandRing3
+      position: {x: .000148069856, y: .0339155421, z: -5.72234385e-05}
+      rotation: {x: 2.96859004e-09, y: -7.77072096e-09, z: 0, w: 1}
+      scale: {x: .999999583, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: swat:RightHandRing3_end
+      position: {x: -0, y: .0339160822, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:RightHandPinky1
+      position: {x: -.000890443276, y: .0997861624, z: .0393672138}
+      rotation: {x: -2.08965449e-08, y: 5.55591981e-08, z: -8.94069444e-07, w: 1}
+      scale: {x: .999998808, y: 1.00000012, z: .999998987}
+      transformModified: 1
+    - name: swat:RightHandPinky2
+      position: {x: .000159387579, y: .0365271717, z: -6.17536862e-05}
+      rotation: {x: -3.17231685e-09, y: -1.83063058e-08, z: 1.5199181e-06, w: 1}
+      scale: {x: 1.00000155, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: swat:RightHandPinky3
+      position: {x: .000121436118, y: .0278200861, z: -4.70083942e-05}
+      rotation: {x: 7.71251329e-09, y: 1.02154418e-08, z: 0, w: 1}
+      scale: {x: .999999583, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: swat:RightHandPinky3_end
+      position: {x: -0, y: .0278205108, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:LeftUpLeg
+      position: {x: -.0963378698, y: -.0323868468, z: .00474524824}
+      rotation: {x: .997417092, y: 4.22412216e-10, z: 5.7294729e-09, w: .0718277618}
+      scale: {x: .999996245, y: 1.00001788, z: .999995708}
+      transformModified: 1
+    - name: swat:LeftLeg
+      position: {x: 2.38418574e-09, y: .417328894, z: .0165887419}
+      rotation: {x: 5.18048138e-09, y: -1.72313737e-08, z: 2.18373786e-09, w: 1}
+      scale: {x: 1.00000036, y: .999990702, z: 1.00000906}
+      transformModified: 1
+    - name: swat:LeftFoot
+      position: {x: -.000126052197, y: .391913831, z: .00780931581}
+      rotation: {x: -.306619674, y: -2.15224929e-07, z: 6.92770641e-08, w: .951832175}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000119}
+      transformModified: 1
+    - name: swat:LeftToeBase
+      position: {x: .00183287391, y: .147294044, z: .00362772122}
+      rotation: {x: -.453000605, y: 1.02718019e-07, z: 1.69991708e-07, w: .891510189}
+      scale: {x: 1, y: 1.00000691, z: .999993384}
+      transformModified: 1
+    - name: swat:LeftToeBase_end
+      position: {x: -0, y: .147350207, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: swat:RightUpLeg
+      position: {x: .0963378623, y: -.0323869735, z: .00474522123}
+      rotation: {x: .997417092, y: -4.22412022e-10, z: -5.72947156e-09, w: .0718277693}
+      scale: {x: .999999642, y: 1.00001228, z: .999997675}
+      transformModified: 1
+    - name: swat:RightLeg
+      position: {x: -1.6093253e-08, y: .417328835, z: .016588809}
+      rotation: {x: 1.33877609e-09, y: -2.88229129e-09, z: -5.74012082e-09, w: 1}
+      scale: {x: 1.00000024, y: .999985218, z: 1.00001454}
+      transformModified: 1
+    - name: swat:RightFoot
+      position: {x: -.000126047133, y: .391913861, z: .00780930277}
+      rotation: {x: -.306619614, y: -2.27862571e-07, z: 8.99016186e-08, w: .951832235}
+      scale: {x: .99999994, y: 1.00000095, z: 1.00000095}
+      transformModified: 1
+    - name: swat:RightToeBase
+      position: {x: .00183309079, y: .147294015, z: .00362766744}
+      rotation: {x: -.453000724, y: 1.14209364e-07, z: 1.57548598e-07, w: .891510129}
+      scale: {x: 1, y: .999972641, z: 1.00002742}
+      transformModified: 1
+    - name: swat:RightToeBase_end
+      position: {x: -0, y: .147350207, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left Foot IK
+      position: {x: -.0964639336, y: .119348601, z: .10574992}
+      rotation: {x: -.707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: 1, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: Left Foot IK_end
+      position: {x: -0, y: .111083694, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right Foot IK
+      position: {x: .0962118208, y: .381430417, z: -.348706365}
+      rotation: {x: -.707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: 1, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: Right Foot IK_end
+      position: {x: -0, y: .111083694, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left Knee IK
+      position: {x: -.228227228, y: .515933692, z: 2.41349196}
+      rotation: {x: .707106829, y: -8.42937027e-08, z: -8.42937027e-08, w: .707106829}
+      scale: {x: 1, y: .999999285, z: .999999285}
+      transformModified: 1
+    - name: Left Knee IK_end
+      position: {x: -0, y: .0531045534, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right Knee IK
+      position: {x: .409580678, y: .506631553, z: 2.63958645}
+      rotation: {x: .707106829, y: -8.42937027e-08, z: -8.42937027e-08, w: .707106829}
+      scale: {x: 1, y: .999999285, z: .999999285}
+      transformModified: 1
+    - name: Right Knee IK_end
+      position: {x: -0, y: .0531045534, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left Elbow IK
+      position: {x: -1.42614007, y: .408242643, z: -.275644749}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: .999999106, z: .999999106}
+      transformModified: 1
+    - name: Left Elbow IK_end
+      position: {x: -0, y: .128792793, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right Elbow IK
+      position: {x: 1.47760677, y: .949571908, z: -.228867486}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: .999999106, z: .999999106}
+      transformModified: 1
+    - name: Right Elbow IK_end
+      position: {x: -0, y: .128792793, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left Hand IK
+      position: {x: -.272074163, y: 1.08249724, z: .242981955}
+      rotation: {x: -.707106829, y: 3.83416769e-16, z: -1.41282131e-16, w: .707106829}
+      scale: {x: .999999881, y: .999999285, z: .999999166}
+      transformModified: 1
+    - name: Left Hand IK_end
+      position: {x: -0, y: .120743193, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right Hand IK
+      position: {x: .143099815, y: 1.12901473, z: .286617666}
+      rotation: {x: -.707106829, y: -4.06234513e-09, z: 4.06234557e-09, w: .707106829}
+      scale: {x: 1, y: .999999285, z: .999999285}
+      transformModified: 1
+    - name: Right Hand IK_end
+      position: {x: -0, y: .120743193, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Body
+      position: {x: -.000311022159, y: -.0476451926, z: -.0133400327}
+      rotation: {x: 8.14603425e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1.03237712, y: 1.03237712, z: 1.03237712}
+      transformModified: 1
+    - name: Eyewear
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 8.14603354e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1.01318419, y: 1.01318419, z: 1.01318419}
+      transformModified: 1
+    - name: Geo
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 8.14603354e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hats
+      position: {x: -.000949422945, y: -.0118677849, z: -.0109183639}
+      rotation: {x: 8.14603354e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1.01318419, y: 1.01318419, z: 1.01318419}
+      transformModified: 1
+    - name: Soldier_body
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 8.14603354e-08, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
